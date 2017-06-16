@@ -53,20 +53,6 @@
 		<!-- WEB end -->
   </dependencies>
   
-  
-  <!-- 配置远程发布到私服，mvn deploy -->
-  <distributionManagement>
-    <repository>
-      <id>releases</id>
-      <name>releases Repository</name>
-      <url>http://localhost:8881/nexus/content/repositories/releases/</url>
-    </repository>
-    <snapshotRepository>
-      <id>snapshots</id>
-      <name>snapshots Repository</name>
-      <url>http://localhost:8881/nexus/content/repositories/snapshots/</url>
-    </snapshotRepository>
-  </distributionManagement>
   <modules>
   	<module>../springboot-project</module>
   </modules>
